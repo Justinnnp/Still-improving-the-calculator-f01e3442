@@ -27,24 +27,23 @@
     $total = $_POST['output'] ?? null;
 
     $math = $_POST['reken'] ?? null;
-
     
     switch ($math) {
     case "add":
-            echo $total = $numberOne + $numberTwo;
-            break;
+        echo $total = $numberOne + $numberTwo;
+        break;
     case "substract":
-            echo $total = $numberOne - $numberTwo;
-            break;
+        echo $total = $numberOne - $numberTwo;
+        break;
     case "multiply":
-            echo $total = $numberOne * $numberTwo;
-            break;
+        echo $total = $numberOne * $numberTwo;
+        break;
     case "divide":
-            echo $total = $numberOne / $numberTwo;
-            break;
+        echo $total = $numberOne / $numberTwo;
+        break;
     case "modulo":
-            echo $total = $numberOne % $numberTwo;
-            break;
+        echo $total = $numberOne % $numberTwo;
+        break;
     }
     ?>
     <input value="add" type="submit" name="reken">
