@@ -30,21 +30,21 @@
 
     
     switch ($math) {
-        case "add":
+    case "add":
             echo $total = $numberOne + $numberTwo;
-        break;
-        case "substract":
+            break;
+    case "substract":
             echo $total = $numberOne - $numberTwo;
-        break;
-        case "multiply":
+            break;
+    case "multiply":
             echo $total = $numberOne * $numberTwo;
-        break;
-        case "divide":
+            break;
+    case "divide":
             echo $total = $numberOne / $numberTwo;
-        break;
-        case "modulo":
+            break;
+    case "modulo":
             echo $total = $numberOne % $numberTwo;
-        break;
+            break;
     }
     ?>
     <input value="add" type="submit" name="reken">
